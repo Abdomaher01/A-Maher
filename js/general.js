@@ -4,6 +4,25 @@ document.addEventListener("DOMContentLoaded",function(){
     document.getElementById("splash").classList.add("display-none");
   }, 2000);
 })    
+// Fix Skills Bars
+function fixSkills(){
+var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+var scrolled = (winScroll / height) * 100;
+if(scrolled>10 && scrolled<30){
+  console.log(document.getElementById("py"))
+  document.getElementById("py").classList.add("py");
+  document.getElementById("ps").classList.add("ps");
+  document.getElementById("algo").classList.add("algo");
+  document.getElementById("dt").classList.add("dt");
+  document.getElementById("html").classList.add("html");
+  document.getElementById("css").classList.add("css");
+  document.getElementById("js").classList.add("js");
+  document.getElementById("rd").classList.add("rd");
+  document.getElementById("hc").classList.add("hc");
+}
+}
+document.addEventListener("scroll",function(){fixSkills()})
 // Load Animations
 var width=window.innerWidth
 if (width>991){
