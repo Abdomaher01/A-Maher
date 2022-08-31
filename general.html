@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="bootstrap.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="splash"><span class="fade-in">Welcome</span></div>
+            <div id="header">
+                <div class="progress-container">
+                  <div class="progress-bar" id="myBar"></div>
+                </div>
+            </div>
+            <nav id="navbar" class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                <a href="general.html"><img id="logo" class="navbar-brand" src="img/abdo-white.png" alt="Logo" width="110"></a>
+                <div id="hr" class="d-none d-lg-inline"></div>
+                <img id="frontLogo" class="d-none d-lg-inline" src="img/front-logo.png" alt="Logo" width="110">
+                <button id="toggle" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navContent"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navContent">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item nav-justified"><a href="#Home" class="shape nav-link">Home</a></li>
+                            <li class="nav-item nav-justified"><a href="#Skills" class="shape nav-link">Skills</a></li>
+                            <li class="nav-item nav-justified"><a href="#Projects" class="nav-link">Projects</a></li>
+                            <li class="nav-item nav-justified"><a href="#Certificates" class="nav-link">Certificates</a></li>
+                            <li class="nav-item nav-justified"><a href="#Contact_us" class="nav-link">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div data-bs-spy="scroll" data-bs-target="#navbar" class="scrollspy-example">
+            <div id="Home"></div>
+            <div id="Skills"></div>
+            <div id="Projects"></div>
+            <div id="Certificates"></div>
+            <div id="Contact_us"></div>
+        </div>
+    </body>
+    <script src="js/general.js"></script>
+</html>

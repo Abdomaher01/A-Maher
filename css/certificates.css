@@ -1,0 +1,61 @@
+/* * Certificates Section */ 
+.link_certificate{
+    text-decoration:none;
+    opacity: 0.9;
+    transition: 0.2s;
+}
+.link_certificate:hover{
+    text-decoration: underline;
+    transition: 0.2s;
+    opacity: 1;
+}
+#first_card{
+    padding-top: 80px ;
+}
+.certificate_card{
+    margin: 0 30px 0 30px;
+}
+.certificate_logo{
+    margin-top: 3px;
+    margin-right: 20px;
+    float: left;
+    clear: both;
+}
+/* More Section */
+div.card-body{
+    color:#bcc2cf;
+    margin-bottom: 12px;
+    font-size: 120%;
+    line-height: 30px;
+    text-align: center;
+}
+.expire_date{
+    color:#bcc2cf;
+    font-style: italic;
+}
+@media all and (max-width:578px) {
+        .certificate_card{
+        margin-left: 0px;
+    }
+    .btn{
+        margin-left: 90%;
+    }
+}
+@media all and (min-width:579px) and (max-width:768px){
+    .certificate_card{
+        margin-left: 0px;
+    }
+    .btn{
+        margin-left: 91%;
+    }
+}
+@media all and (min-width:769px){
+    .btn{
+        margin-left: 93%;
+    }
+}
+@media all and (min-width:992px){
+    .btn{
+        margin-left: 95%;
+    }
+}

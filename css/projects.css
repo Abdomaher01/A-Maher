@@ -1,0 +1,24 @@
+.link_project{
+    text-decoration:none;
+    opacity: 0.9;
+    transition: 0.2s;
+}
+.link_project:hover{
+    text-decoration: underline;
+    transition: 0.2s;
+    opacity: 1;
+}
+#project_first_card{
+    padding-top: 80px ;
+}
+.project_card{
+    margin: 0 30px 130px 50px;
+}
+.project_logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 3px;
+    margin-right: 20px;
+    float: left;
+    clear: both;
+}

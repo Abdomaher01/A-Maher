@@ -1,0 +1,35 @@
+/* Home Pages Style */
+body{
+    height: 100vh;
+}
+h1{
+    color: white;
+}
+span{
+    color: yellow;
+}
+#color_change{
+    transition: 0.5s;
+}
+/* Hello Words */
+#hello_words{
+    position: absolute;
+    top: 45vh;
+    text-align: center;
+}
+@media all and (min-width:992px) {
+    #hello_words{
+        position: absolute;
+        top: 50vh;
+        text-align:start;
+        left: 15vw;
+    }
+}
+@media all and (min-width:1200px) {
+    #hello_words{
+        position: absolute;
+        top: 50vh;
+        text-align:start;
+        left: 20vw;
+    }
+}
