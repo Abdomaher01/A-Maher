@@ -10,7 +10,6 @@ var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
 var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
 var scrolled = (winScroll / height) * 100;
 if(scrolled>10 && scrolled<30){
-  console.log(document.getElementById("py"))
   document.getElementById("py").classList.add("py");
   document.getElementById("ps").classList.add("ps");
   document.getElementById("algo").classList.add("algo");
@@ -20,17 +19,31 @@ if(scrolled>10 && scrolled<30){
   document.getElementById("js").classList.add("js");
   document.getElementById("rd").classList.add("rd");
   document.getElementById("hc").classList.add("hc");
-}
-}
+}}
 document.addEventListener("scroll",function(){fixSkills()})
 // Load Animations
 var width=window.innerWidth
 if (width>991){
-  window.onscroll = function() {scrollIndictor(),reveal()}
+  window.onscroll = function() {scrollIndictor(),navbarAnimation(),reveal()}
 }
 else{
-  window.onscroll = function() {scrollIndictor(),CollapsingOnScroll(),reveal()}
+  window.onscroll = function() {scrollIndictor(),navbarAnimation(),CollapsingOnScroll(),reveal()}
 }
+// Nav Bar Scroll Animation
+const navbar= document.getElementById("navbar");
+var lastscrolly=window.scrollY;
+function navbarAnimation(){
+  console.log(lastscrolly,window.scrollY)
+  if (lastscrolly<window.scrollY) {
+    console.log("down")
+    navbar.classList.add("nav_hidden");
+  }
+  else{
+    console.log("up")
+    navbar.classList.remove("nav_hidden");
+  }
+  lastscrolly=window.scrollY;
+};
 // Scroll Indictor Animation On Scroll
 function scrollIndictor() {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
