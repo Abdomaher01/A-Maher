@@ -61,39 +61,39 @@
     border-style: solid;
 }
 #py{
-    animation: py 4.5s linear forwards;
+    animation: py 3.5s linear forwards;
     background:linear-gradient(to right,#007bff 20%,#00ADB5) ;
 }
 #ps{
-    animation: ps 4.5s linear forwards;
+    animation: ps 3.5s linear forwards;
     background:linear-gradient(to right,#007bff 20%,#00ADB5) ;
 }
 #algo{
-    animation: algo 4.5s linear forwards;
+    animation: algo 3.5s linear forwards;
     background:linear-gradient(to right,#007bff 20%,#00ADB5) ;
 }
 #dt{
-    animation: dt 4.5s linear forwards;
+    animation: dt 3.5s linear forwards;
     background:linear-gradient(to right,#007bff 20%,#00ADB5) ;
 }
 #html{
-    animation: html 4.5s linear forwards;
+    animation: html 3.5s linear forwards;
     background:linear-gradient(to right,#007bff 20%,#00ADB5) ;
 }
 #css{
-    animation: css 4.5s linear forwards;
+    animation: css 3.5s linear forwards;
     background:linear-gradient(to right,#007bff 20%,#00ADB5) ;
 }
 #js{
-    animation: js 4.5s linear forwards;
+    animation: js 3.5s linear forwards;
     background:linear-gradient(to right,#007bff 20%,#00ADB5) ;
 }
 #rd{
-    animation: rd 4.5s linear forwards;
+    animation: rd 3.5s linear forwards;
     background:linear-gradient(to right,#007bff 20%,#00ADB5) ;
 }
 #hc{
-    animation: hc 4.5s linear forwards;
+    animation: hc 3.5s linear forwards;
     background:linear-gradient(to right,#007bff 20%,#00ADB5) ;
 }
 @keyframes html{
