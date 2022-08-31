@@ -2,6 +2,7 @@ html{
     scroll-behavior: smooth;
     touch-action: manipulation;
     overflow-x: hidden;
+    font-family: 'Ubuntu', sans-serif;
 }
 /* Welcome Effect */
  #splash{
@@ -122,4 +123,9 @@ html{
 .reveal.active{
     transform: translateY(0);
     opacity: 1;
+}
+@media all and (min-width:500px) and (max-width:991px){
+    html{
+        font-size:115% ;
+    }
 }
