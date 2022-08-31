@@ -60,40 +60,40 @@
     border-color: #00ADB5;
     border-style: solid;
 }
-#py{
-    animation: py 3.5s linear forwards;
+.py{
+    animation: py 1.5s linear forwards;
     background:linear-gradient(to right,#007bff 20%,#00ADB5) ;
 }
-#ps{
-    animation: ps 3.5s linear forwards;
+.ps{
+    animation: ps 1.5s linear forwards;
     background:linear-gradient(to right,#007bff 20%,#00ADB5) ;
 }
-#algo{
-    animation: algo 3.5s linear forwards;
+.algo{
+    animation: algo 1.5s linear forwards;
     background:linear-gradient(to right,#007bff 20%,#00ADB5) ;
 }
-#dt{
-    animation: dt 3.5s linear forwards;
+.dt{
+    animation: dt 1.5s linear forwards;
     background:linear-gradient(to right,#007bff 20%,#00ADB5) ;
 }
-#html{
-    animation: html 3.5s linear forwards;
+.html{
+    animation: html 1.5s linear forwards;
     background:linear-gradient(to right,#007bff 20%,#00ADB5) ;
 }
-#css{
-    animation: css 3.5s linear forwards;
+.css{
+    animation: css 1.5s linear forwards;
     background:linear-gradient(to right,#007bff 20%,#00ADB5) ;
 }
-#js{
-    animation: js 3.5s linear forwards;
+.js{
+    animation: js 1.5s linear forwards;
     background:linear-gradient(to right,#007bff 20%,#00ADB5) ;
 }
-#rd{
-    animation: rd 3.5s linear forwards;
+.rd{
+    animation: rd 1.5s linear forwards;
     background:linear-gradient(to right,#007bff 20%,#00ADB5) ;
 }
-#hc{
-    animation: hc 3.5s linear forwards;
+.hc{
+    animation: hc 1.5s linear forwards;
     background:linear-gradient(to right,#007bff 20%,#00ADB5) ;
 }
 @keyframes html{
