@@ -3,6 +3,7 @@
     text-decoration:none;
     opacity: 0.9;
     transition: 0.2s;
+    font-size: 19px;
 }
 .link_certificate:hover{
     text-decoration: underline;
