@@ -33,13 +33,10 @@ else{
 const navbar= document.getElementById("navbar");
 var lastscrolly=window.scrollY;
 function navbarAnimation(){
-  console.log(lastscrolly,window.scrollY)
   if (lastscrolly<window.scrollY) {
-    console.log("down")
     navbar.classList.add("nav_hidden");
   }
   else{
-    console.log("up")
     navbar.classList.remove("nav_hidden");
   }
   lastscrolly=window.scrollY;
