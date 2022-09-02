@@ -3,6 +3,7 @@
     opacity: 0.9;
     transition: 0.2s;
     font-size: 19px;
+    color:#ffffff;
 }
 .link_project:hover{
     text-decoration: underline;
