@@ -13,7 +13,7 @@
     letter-spacing: 2px;
     margin-top: 40px;
     margin-bottom:5px;
-    color: #fff;
+    color: #ffffff;
     font-size: 19px;
 }
 .skills{
@@ -98,22 +98,22 @@
 }
 @keyframes html{
     to{
-        width: 84%;
+        width: 70%;
     }
 }
 @keyframes css{
     to{
-        width: 78%;
+        width: 70%;
     }
 }
 @keyframes js{
     to{
-        width: 80%;
+        width: 60%;
     }
 }
 @keyframes py{
     to{
-        width: 90%;
+        width: 75%;
     }
 }
 @keyframes algo{
@@ -123,21 +123,21 @@
 }
 @keyframes dt{
     to{
-        width: 70%;
+        width: 65%;
     }
 }
 @keyframes ps{
     to{
-        width: 86%;
+        width: 75%;
     }
 }
 @keyframes rd{
     to{
-        width: 85%;
+        width: 75%;
     }
 }
 @keyframes hc{
     to{
-        width: 100%;
+        width: 90%;
     }
 }
