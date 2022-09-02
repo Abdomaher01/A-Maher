@@ -4,6 +4,7 @@
     opacity: 0.9;
     transition: 0.2s;
     font-size: 19px;
+    color:#ffffff;
 }
 .link_certificate:hover{
     text-decoration: underline;
