@@ -20,12 +20,13 @@ a{
 }
 #email{
     margin-left: 10px;
-    color: #0d6efd;
+    color: #ffffff;
     opacity: 0.8;
     transition: 0.2s;
     font-size: 19px;
 }
 #email:hover{
+    color: #0d6efd;
     text-decoration: underline;
     transition: 0.2s;
     opacity: 1;
