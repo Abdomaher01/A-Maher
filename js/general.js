@@ -18,6 +18,8 @@ if(scrolled>10 && scrolled<30){
   document.getElementById("css").classList.add("css");
   document.getElementById("js").classList.add("js");
   document.getElementById("rd").classList.add("rd");
+  document.getElementById("wb").classList.add("wb");
+  document.getElementById("sqlite").classList.add("sqlite");
   document.getElementById("hc").classList.add("hc");
 }}
 document.addEventListener("scroll",function(){fixSkills()})
