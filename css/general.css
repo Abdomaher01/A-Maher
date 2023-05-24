@@ -109,7 +109,7 @@ html{
     background-color: rgb(34, 40, 49);
 }
 #Projects{
-    height: 600px;
+    height: 700px;
     background:linear-gradient(to right,rgb(34, 40, 49) 40%,rgb(57, 62, 70) 100%);
 }
 #Certificates{
